@@ -1,0 +1,104 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WebSiteForU</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WebSiteForU</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AllSalons.aspx">AllSalons.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AllSalons.aspx.cs">AllSalons.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AllSalonsCO.aspx">AllSalonsCO.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AllSalonsCO.aspx.cs">AllSalonsCO.aspx.cs</ProjectItem>
+      <Folder Name="Bin" TargetFolderName="Bin">
+        <ProjectItem ReplaceParameters="false" TargetFileName="GMaps.dll">GMaps.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="GMaps.dll.refresh">GMaps.dll.refresh</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Clinic page.aspx">Clinic page.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Clinic page.aspx.cs">Clinic page.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="clinicCustomer.aspx">clinicCustomer.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="clinicCustomer.aspx.cs">clinicCustomer.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ClinicOwner.aspx">ClinicOwner.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ClinicOwner.aspx.cs">ClinicOwner.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Googlemap.aspx">Googlemap.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Googlemap.aspx.cs">Googlemap.aspx.cs</ProjectItem>
+      <Folder Name="image2" TargetFolderName="image2">
+        <ProjectItem ReplaceParameters="false" TargetFileName="download (3).png">download (3).png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="download (4).png">download (4).png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="download (5).png">download (5).png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="download.png">download.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="images (1).jpg">images (1).jpg</ProjectItem>
+      </Folder>
+      <Folder Name="img" TargetFolderName="img">
+        <ProjectItem ReplaceParameters="false" TargetFileName="6065.jpg_wh860.jpg">6065.jpg_wh860.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="about.jfif">about.jfif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic1.jpg">clinic1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic2.jpg">clinic2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic3.jfif">clinic3.jfif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="db6e7b9f-462b-4d69-8204-4badd2c0e431.jfif">db6e7b9f-462b-4d69-8204-4badd2c0e431.jfif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="dim-2.jpg">dim-2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="download (1).jfif">download (1).jfif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="headcase-hair-3.jpg">headcase-hair-3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="LOGIN.jpg">LOGIN.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Logo.jpg">Logo.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Logob.jpg">Logob.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="LogobACK.jpg">LogobACK.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="LogobACK2.jpg">LogobACK2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="salman.jpg">salman.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="salmat.png">salmat.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="steth.jpg">steth.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="takh.jpg">takh.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx">Login.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx.cs">Login.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.aspx">MainPage.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.aspx.cs">MainPage.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPageSalon.aspx">MainPageSalon.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPageSalon.aspx.cs">MainPageSalon.aspx.cs</ProjectItem>
+      <Folder Name="offerclinic" TargetFolderName="offerclinic">
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic1.jpg">clinic1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic3.jfif">clinic3.jfif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic4.jpg">clinic4.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic5.jfif">clinic5.jfif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic55.jpg">clinic55.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="download.jfif">download.jfif</ProjectItem>
+      </Folder>
+      <Folder Name="pic" TargetFolderName="pic">
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic3.jfif">clinic3.jfif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic4.jpg">clinic4.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic5.jfif">clinic5.jfif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clinic55.jpg">clinic55.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="zamzam.jpeg">zamzam.jpeg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx">Register.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx.cs">Register.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RegisterAdmin.aspx">RegisterAdmin.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RegisterAdmin.aspx.cs">RegisterAdmin.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SalonesMain.aspx">SalonesMain.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SalonesMain.aspx.cs">SalonesMain.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Setting.aspx">Setting.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Setting.aspx.cs">Setting.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SettingAdmin.aspx">SettingAdmin.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SettingAdmin.aspx.cs">SettingAdmin.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StyleSheet.css">StyleSheet.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StyleSheet2.css">StyleSheet2.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="test.aspx">test.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="test.aspx.cs">test.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UsersAdmin.aspx">UsersAdmin.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UsersAdmin.aspx.cs">UsersAdmin.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="viewallclinic.aspx">viewallclinic.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="viewallclinic.aspx.cs">viewallclinic.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
